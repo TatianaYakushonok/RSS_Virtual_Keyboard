@@ -1,0 +1,125 @@
+$bg-color: #323232;
+$accent-color: #3EA6FF;
+$accent-color2: #ffdf3e;
+
+body {
+    background-color: $bg-color;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: $accent-color;
+}
+
+.subtitle {
+    color: $accent-color2;
+}
+
+.output {
+    padding: 10px;
+    color: #ccc;
+    background-color: $bg-color;
+    border: 1px solid rgba(204, 204, 204, .6);
+}
+
+.output:focus {
+    outline: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    transition: border .3 ease-in;
+}
+
+.output::placeholder {
+    color: #ccc;
+}
+
+.output:focus::placeholder {
+    color: transparent;
+    transition: color .3s ease-in;
+}
+
+.paragraf {
+    margin: 10px 0 20px;
+    color: $accent-color2;
+}
+
+.keyboard {
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.keyboard__row {
+    display: flex;
+}
+
+.keyboard__key {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+    color: #fff;
+
+    background-color: #3A424F;
+    border-radius: 5px;
+}
+
+.sub {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+[data-code="Backspace"] {
+    width: 135px;
+}
+
+[data-code="Tab"] {
+    width: 80px;
+}
+
+[data-code="Space"] {
+    width: 416px;
+}
+
+[data-code="CapsLock"],
+[data-code="ShiftLeft"] {
+    width: 136px;
+}
+
+[data-code="Enter"] {
+    width: 105px;
+}
+
+[data-code="Backspace"],
+[data-code="Backquote"],
+[data-code="Tab"],
+[data-code="Delete"],
+[data-code="CapsLock"],
+[data-code="Enter"],
+[data-code="ShiftLeft"],
+[data-code="ShiftRight"],
+[data-code="ArrowUp"],
+[data-code="ControlLeft"],
+[data-code="MetaLeft"],
+[data-code="AltLeft"],
+[data-code="AltRight"],
+[data-code="ControlRight"],
+[data-code="ArrowLeft"],
+[data-code="ArrowDown"],
+[data-code="ArrowRight"] {
+    font-size: 20px;
+    color: #7B8684;
+    background-color: #1B232E;
+}
