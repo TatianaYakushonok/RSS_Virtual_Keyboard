@@ -48,6 +48,7 @@ body {
 }
 
 .keyboard {
+    padding: 3px;
     background-color: #000;
     border-radius: 5px;
 }
@@ -122,4 +123,20 @@ body {
     font-size: 20px;
     color: #7B8684;
     background-color: #1B232E;
+}
+
+.active {
+    background-color: $accent-color;
+}
+
+.sub-active {
+    left: 10px;
+    top: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.sub-inactive {
+    justify-content: flex-end;
+    color: #fff;
 }

@@ -30,7 +30,7 @@ const config = {
 
         new CopyPlugin({
             patterns: [
-              { from: "./src", to: "dest" },
+              { from: "src", to: "dest" },
             ],
         }),
 

@@ -135,7 +135,7 @@ export default [
         code: 'BracketRight',
     },
     {
-        small: '"\"',
+        small: '&bsol;',
         shift: '|',
         code: 'Backslash',
     },
@@ -145,7 +145,7 @@ export default [
         code: 'Delete',
     },
     {
-        small: 'Caps',
+        small: 'CapsLock',
         shift: null,
         code: 'CapsLock',
     },
@@ -210,7 +210,7 @@ export default [
         code: 'Enter',
     },
     {
-        small: 'Shif',
+        small: 'Shift',
         shift: null,
         code: 'ShiftLeft',
     },
@@ -260,7 +260,7 @@ export default [
         code: 'Period',
     },
     {
-        small: '/',
+        small: '&sol;',
         shift: '?',
         code: 'Slash',
     },

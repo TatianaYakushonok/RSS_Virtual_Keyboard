@@ -135,7 +135,7 @@ export default [
         code: 'BracketRight',
     },
     {
-        small: '"\"',
+        small: '&bsol;',
         shift: null,
         code: 'Backslash',
     },
@@ -210,7 +210,7 @@ export default [
         code: 'Enter',
     },
     {
-        small: 'Shif',
+        small: 'Shift',
         shift: null,
         code: 'ShiftLeft',
     },
