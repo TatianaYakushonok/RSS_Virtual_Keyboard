@@ -1,0 +1,1 @@
+export function set(t,e){window.localStorage.setItem(t,JSON.stringify(e))}export function get(t,e=null){return JSON.parse(window.localStorage.getItem(t)||e)}
